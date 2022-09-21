@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+*{
+    margin: 0%;
+}
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #f6f6f6;
+    min-height: 30.67vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin: auto;
+    margin-top: 200px;
+    width: 74vmax;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.block:first-child img{
+    width: 11.2vmax;
+    margin-bottom: 20px;
+}
+.block{
+    margin: -100px 20px 0 20px;
+}
+.block>p>span{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.link>a{
+    margin-right: 15px;
+}
+.block:first-child p,li{
+    color:rgba(3, 5, 94, 0.5);
+    font-family: 'Poppins', sans-serif;
+}

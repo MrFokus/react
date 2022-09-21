@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+.search{
+    background-color: #FFFFFF;
+    
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain{
+    width: 74vmax;
+    height: 7.7vmax;
+    display: flex;
+}
+.input_domain{
+    border-right:rgba(3, 5, 94, 0.2) solid;
+    padding-right: 4vmax;
+    
+}
+.input_domain>h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.85vmax;
+    color: #03045E;
+    margin: 0%;
+    margin-bottom: 1.85vmax;
+}
+.input_domain>input{
+    background-color: #F6F6F6;
+    border: none;
+    padding: 1vmax;
+    font-size: 1vmax;
+    font-family: 'Poppins', sans-serif;
+    width: 26.96vmax;
+    margin: 0%;
+    border-radius: 0.289vmax;
+    border-bottom-right-radius:0 ;
+    border-top-right-radius:0 ;
+}
+.input_domain>button{
+    padding: 1vmax;
+    font-size: 1vmax;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0098FF;
+    margin: 0%;
+    border-radius: 0.289vmax;
+    color: white;
+    border-bottom-left-radius:0 ;
+    border-top-left-radius:0 ;
+}
+.prise_domain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    
+}
+.prise_domain>p>span{
+    font-size: 1.157vmax;
+    font-family: 'Poppins', sans-serif;
+    color: #0098FF;
+    font-weight: 600;
+}
+.prise_domain>p{
+    font-size: 0.810vmax;
+    margin-left: 6.77vmax;
+    font-family: 'Poppins', sans-serif;
+    color:rgba(3, 5, 94, 0.2) ;
+}
